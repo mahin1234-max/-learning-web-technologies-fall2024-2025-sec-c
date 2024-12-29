@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Features</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .top-bar {
+            background-color: white;
+            color: black;
+            padding: 10px;
+            text-align: center;
+        }
+        .nav-menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: black;
+        }
+
+        .nav-menu li {
+            padding: 14px 20px;
+        }
+
+        .nav-menu li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .starting-page {
+            padding: 50px;
+            text-align: center;
+            background-color: white ;
+        }
+
+        .starting-page h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .dashboard {
+            padding: 20px;
+            background-color:white ;
+        }
+
+        .dashboard h2 {
+            font-size: 2em;
+        }
+
+        .dashboard p {
+            font-size: 1.2em;
+        }
+
+        .registration  {
+            padding: 20px;
+            background-color: white ;
+        }
+
+        .registratioin h2 {
+            font-size: 2em;
+        }
+
+        .registration form {
+            margin-top: 20px;
+        }
+
+        .registration input[type="text"], .registration input[type="number"] {
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+            max-width: 400px;
+            display: middle;
+        }
+
+        .registration {
+            padding: 10px 20px;
+            background-color: white;
+            color: white;
+            border: none;
+          
+        }
+
+        
+        @media screen and (max-width: 600px) {
+            .nav-menu {
+                flex-direction: column;
+            }
+
+            .nav-menu li {
+                text-align: center;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="top-bar">
+        <h1>Fin Tech</h1>
+    </div>
+    <ul class="nav-menu">
+        <li><a href="#starting-page">Starting Page</a></li>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#send-money">Send Money</a></li>
+    </ul>
+
+    <section id="starting-page" class="starting-page">
+        <h1>Welcome to the Project</h1>
+        <p>
+
+        </p>
+    </section>
+
+    <section id="dashboard" class="dashboard">
+        <h2>Dashboard</h2>
+        <p>
+
+        </p>
+    </section>
+
+    <section id="Registration" class="Registration">
+        <h2>Registration</h2>
+        <form>
+            <label for="">user name</label>
+            <input type="text"   required>
+
+            <label for="">create password</label>
+            <input type=  required>
+
+            <button type="submit">next</button>
+        </form>
+    </section>
+
+</body>
+</html>
